@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "better-mock": "^0.3.6",
+    "pinyin-pro": "^3.15.1"
+  }
+}

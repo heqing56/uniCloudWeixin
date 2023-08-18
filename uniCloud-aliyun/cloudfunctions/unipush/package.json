@@ -1,0 +1,11 @@
+{
+  "name": "unipush",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "extensions": {
+    "uni-cloud-push": {}
+  },
+  "author": "",
+  "dependencies": {}
+}

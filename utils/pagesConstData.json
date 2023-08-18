@@ -1,0 +1,257 @@
+{
+  "friendInfo": {
+    "list": [
+      [
+        {
+          "src": 3,
+          "name": "朋友圈"
+        },
+        {
+          "src": 4,
+          "name": "更多信息"
+        }
+      ]
+    ]
+  },
+  "addman": {
+    "actions": [
+      {
+        "name": "男",
+        "id": "man"
+      },
+      {
+        "name": "女",
+        "id": "woman"
+      },
+      {
+        "name": "保密",
+        "id": "other"
+      }
+    ],
+    "rules": {
+      "userInfo.name": {
+        "type": "string",
+        "required": true,
+        "message": "请填写姓名",
+        "trigger": ["blur", "change"]
+      },
+      "userInfo.phone": {
+        "type": "string",
+        "required": true,
+        "message": "请填写电话号",
+        "trigger": ["blur", "change"]
+      },
+      "userInfo.sex": {
+        "type": "string",
+        "max": 1,
+        "required": true,
+        "message": "请选择男或女",
+        "trigger": ["blur", "change"]
+      },
+      "userInfo.headimg": {
+        "type": "string",
+        "required": true,
+        "message": "请上传头像",
+        "trigger": ["blur", "change"]
+      }
+    }
+  },
+  "my": {
+    "list": [
+      [
+        {
+          "src": 1,
+          "name": "服务"
+        }
+      ],
+      [
+        {
+          "src": 2,
+          "name": "收藏"
+        },
+        {
+          "src": 3,
+          "name": "朋友圈"
+        },
+        {
+          "src": 4,
+          "name": "卡包"
+        },
+        {
+          "src": 5,
+          "name": "表情"
+        }
+      ],
+      [
+        {
+          "src": 6,
+          "name": "设置",
+          "type": "set"
+        }
+      ]
+    ]
+  },
+  "info": {
+    "list": [
+      [
+        {
+          "name": "头像",
+          "img": "../../static/my/headimg.jpg",
+          "type": "headimg"
+        },
+        {
+          "name": "名字",
+          "text": "何庆",
+          "type": "myname"
+        },
+        {
+          "name": "拍一拍",
+          "type": "paipai"
+        },
+        {
+          "name": "微信号",
+          "text": "bigchuiheqing"
+        },
+        {
+          "name": "我的二维码",
+          "img": "../../static/my/erweima.png",
+          "type": "scan"
+        },
+        {
+          "name": "更多"
+        }
+      ],
+      [
+        {
+          "name": "来电铃声"
+        }
+      ],
+      [
+        {
+          "name": "微信豆"
+        }
+      ],
+      [
+        {
+          "name": "我的地址"
+        }
+      ]
+    ]
+  },
+  "set": {
+    "list": [
+      [
+        {
+          "name": "账号安全",
+          "type": "headimg"
+        }
+      ],
+      [
+        {
+          "name": "青少年模式"
+        },
+        {
+          "name": "关怀模式"
+        }
+      ],
+      [
+        {
+          "name": "消息通知"
+        },
+        {
+          "name": "通用"
+        }
+      ],
+      [
+        {
+          "name": "朋友权限"
+        },
+        {
+          "name": "个人信息与权限"
+        },
+        {
+          "name": "个人信息收集清单"
+        },
+        {
+          "name": "第三方信息共享清单"
+        }
+      ],
+      [
+        {
+          "name": "插件"
+        }
+      ],
+      [
+        {
+          "name": "帮助与反馈"
+        },
+        {
+          "name": "关于微信",
+          "text": "版本8.0.38"
+        }
+      ]
+    ]
+  },
+  "news": {
+    "list": [
+      [
+        {
+          "src": 1,
+          "name": "朋友圈"
+        }
+      ],
+      [
+        {
+          "src": 2,
+          "name": "视频号"
+        },
+        {
+          "src": 3,
+          "name": "直播"
+        }
+      ],
+      [
+        {
+          "src": 4,
+          "name": "扫一扫"
+        },
+        {
+          "src": 5,
+          "name": "摇一摇"
+        }
+      ],
+      [
+        {
+          "src": 6,
+          "name": "看一看"
+        },
+        {
+          "src": 7,
+          "name": "搜一搜"
+        }
+      ],
+      [
+        {
+          "src": 8,
+          "name": "附件"
+        }
+      ],
+      [
+        {
+          "src": 9,
+          "name": "购物"
+        },
+        {
+          "src": 10,
+          "name": "游戏"
+        }
+      ],
+      [
+        {
+          "src": 11,
+          "name": "小程序"
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "577312",
+      "name": "加号",
+      "font_class": "jiahao",
+      "unicode": "e726",
+      "unicode_decimal": 59174
+    },
+    {
+      "icon_id": "1727462",
+      "name": "227注册、添加好友",
+      "font_class": "zhucetianjiahaoyou",
+      "unicode": "e8ca",
+      "unicode_decimal": 59594
+    },
+    {
+      "icon_id": "3538385",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e719",
+      "unicode_decimal": 59161
+    },
+    {
+      "icon_id": "5387994",
+      "name": "添加好友_o",
+      "font_class": "tianjiahaoyou_o",
+      "unicode": "ebad",
+      "unicode_decimal": 60333
+    },
+    {
+      "icon_id": "9626841",
+      "name": "错误",
+      "font_class": "cuowu",
+      "unicode": "e867",
+      "unicode_decimal": 59495
+    },
+    {
+      "icon_id": "11372685",
+      "name": "扫一扫",
+      "font_class": "saoyisao",
+      "unicode": "e8b5",
+      "unicode_decimal": 59573
+    },
+    {
+      "icon_id": "21242881",
+      "name": "消息",
+      "font_class": "xiaoxi",
+      "unicode": "e63e",
+      "unicode_decimal": 58942
+    },
+    {
+      "icon_id": "29130774",
+      "name": "收付款",
+      "font_class": "shoufukuan",
+      "unicode": "e647",
+      "unicode_decimal": 58951
+    }
+  ]
+}

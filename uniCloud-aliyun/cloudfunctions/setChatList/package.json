@@ -1,0 +1,7 @@
+{
+  "name": "setChatList",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

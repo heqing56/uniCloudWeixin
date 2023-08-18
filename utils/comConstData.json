@@ -1,0 +1,26 @@
+{
+    "tooltip":{
+        "list": [
+            {
+              "icon": "msgicon",
+              "title": "发起群聊",
+              "type": "chat"
+            },
+            {
+              "icon": "addmanicon",
+              "title": "添加朋友",
+              "type": "add"
+            },
+            {
+              "icon": "saoyisaoicon",
+              "title": "扫一扫",
+              "type": "scan"
+            },
+            {
+              "icon": "shoufukuanicon",
+              "title": "收付款",
+              "type": "money"
+            }
+          ]
+    }
+}

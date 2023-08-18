@@ -1,0 +1,271 @@
+{
+  "pages": [
+    {
+      "path": "pages/index/index",
+      "style": {
+        "navigationBarTitleText": "微信",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "\ue726",
+                "fontSrc": "/static/icon/iconfont.ttf",
+                "fontSize": "42rpx",
+                "width": "80rpx"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/index/chat",
+      "style": {
+        "navigationBarTitleText": "聊天",
+        "enablePullDownRefresh": false,
+        "app-plus": {
+          "softinputMode": "adjustResize",
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "\ue719",
+                "fontSrc": "/static/icon/iconfont.ttf",
+                "fontSize": "42rpx",
+                "width": "80rpx"
+              }
+            ]
+          },
+          "scrollIndicator":"none"
+        }
+      }
+    },
+    {
+      "path": "pages/man/index",
+      "style": {
+        "navigationBarTitleText": "通讯录",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "\uebad",
+                "fontSrc": "/static/icon/iconfont.ttf",
+                "fontSize": "52rpx",
+                "width": "80rpx"
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/man/addman",
+      "style": {
+        "navigationBarTitleText": "添加朋友"
+      }
+    },
+    {
+      "path": "pages/news/index",
+      "style": {
+        "navigationBarTitleText": "发现"
+      }
+    },
+    {
+      "path": "pages/my/index",
+      "style": {
+        "navigationBarTitleText": " ",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationBarTitleText": " ",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false,
+        "app-plus":{
+          "softinputMode": "adjustResize",
+          "softinputNavBar": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/login/acc",
+      "style": {
+        "navigationBarTitleText": " ",
+        "navigationBarBackgroundColor": "#ffffff",
+        "navigationStyle": "custom",
+        "enablePullDownRefresh": false,
+        "app-plus":{
+          "softinputMode": "adjustResize",
+          "softinputNavBar": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/my/Info",
+      "style": {
+        "navigationBarTitleText": "个人信息"
+      }
+    },
+    {
+      "path": "pages/my/headimg",
+      "style": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "个人头像",
+        "navigationBarBackgroundColor": "#000000",
+        "enablePullDownRefresh": false, // 下拉刷新
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": "\ue719",
+                "fontSrc": "/static/icon/iconfont.ttf",
+                "fontSize": "52rpx",
+                "width": "50rpx"
+              }
+            ]
+          },
+
+          "bounce": "none"
+        }
+      }
+    },
+    {
+      "path": "pages/my/set",
+      "style": {
+        "navigationBarTitleText": "设置"
+      }
+    },
+    {
+      "path": "pages/my/erweima",
+      "style": {
+        "navigationBarTitleText": " ",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    },
+    {
+      "path": "pages/common/friendInfo",
+      "style": {
+        "navigationBarTitleText": " ",
+        "navigationBarBackgroundColor": "#ffffff"
+      }
+    },
+    {
+      "path": "pages/common/changeText",
+      "style": {
+        "navigationBarTitleText": "个人信息",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "type": "transparent",
+                "text": "完成",
+                "fontSize": "12px",
+                "width": "50px",
+                "color": "#58bf6b",
+                "background": "#58bf6b",
+                "float": "right"
+              },
+              {
+                "type": "transparent",
+                "text": "取消",
+                "fontSize": "14px",
+                "width": "50px",
+                "color": "#000000",
+                "float": "left"
+              }
+            ],
+            "autoBackButton": false
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/my/paiyipai",
+      "style": {
+        "navigationBarTitleText": " ",
+        "navigationBarBackgroundColor": "#ffffff",
+        "app-plus": {
+          "titleNView": {
+            "buttons": [
+              {
+                "text": " \ue867",
+                "fontSrc": "/static/icon/iconfont.ttf",
+                "fontSize": "38rpx",
+                "width": "50px",
+                "float": "left"
+              }
+            ],
+            "autoBackButton": false
+          }
+        }
+      }
+    },
+    {
+      "path": "pages/common/search",
+      "style": {
+        "navigationBarTitleText": " ",
+        "app-plus": {
+          "titleNView": {
+            "searchInput":{
+              "placeholder": "搜索",
+              "borderRadius":"5px",
+              "backgroundColor": "#ffffff",
+              "align":"left",
+              "autoFocus":true
+            },
+            "buttons": [
+              {
+                "type": "transparent",
+                "text": "取消",
+                "fontSize": "14px",
+                "width": "50px",
+                "color": "#000000",
+                "float": "right"
+              }
+            ],
+            "autoBackButton": false
+          }
+        }
+      }
+    }
+  ],
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#f1f1f1",
+    "backgroundColor": "#f1f1f1"
+  },
+  "uniIdRouter": {},
+  "tabBar": {
+    "color": "#515151",
+    "selectedColor": "#1296db",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "消息",
+        "iconPath": "./static/tabBar/index.png",
+        "selectedIconPath": "./static/tabBar/indexs.png"
+      },
+      {
+        "pagePath": "pages/man/index",
+        "text": "通讯录",
+        "iconPath": "./static/tabBar/man.png",
+        "selectedIconPath": "./static/tabBar/mans.png"
+      },
+      {
+        "pagePath": "pages/news/index",
+        "text": "发现",
+        "iconPath": "./static/tabBar/news.png",
+        "selectedIconPath": "./static/tabBar/newss.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我",
+        "iconPath": "./static/tabBar/my.png",
+        "selectedIconPath": "./static/tabBar/mys.png"
+      }
+    ]
+  }
+}
